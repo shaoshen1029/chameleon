@@ -58,13 +58,13 @@ public class RouterController {
     }
 
     @PostMapping("/kidnap")
-    public String addKidnap(@RequestBody KidnapModel model) {
+    public String addKidnap(KidnapModel model) {
         kidnapService.addKidnap(model);
         return ResponseModel.renderResponseBody(200, null, true);
     }
 
     @PutMapping("/kidnap")
-    public String updKidnap(@RequestBody KidnapModel model) {
+    public String updKidnap(KidnapModel model) {
         kidnapService.updKidnap(model);
         return ResponseModel.renderResponseBody(200, null, true);
     }

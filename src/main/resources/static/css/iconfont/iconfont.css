@@ -1,0 +1,334 @@
+@font-face {
+  font-family: 'SocIconFont';
+  src: url('../iconfont/fonts/soc-webfont.eot?v=4.7.0');
+  src: url('../iconfont/fonts/soc-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../iconfont/fonts/soc-webfont.woff?v=4.7.0') format('woff'), url('../iconfont/fonts/soc-webfont.ttf?v=4.7.0') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.soc-icon-font {
+  display: inline-block;
+  font: normal normal normal 14px/1 SocIconFont;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased; /*chrome、safari*/
+  -moz-osx-font-smoothing: grayscale; /*firefox*/
+}
+
+.soc-icon-size-16x {font-size: 16px;}
+.soc-icon-size-18x {font-size: 18px;}
+.soc-icon-size-20x {font-size: 20px;}
+.soc-icon-size-22x {font-size: 22px;}
+.soc-icon-size-24x {font-size: 24px;}
+
+/*=======================图标==========================*/
+/*系统徽章*/
+.soc-icon-badge:before {content: "\e020";}
+/*添加*/
+.soc-icon-add:before {content: "\f067";}
+/*修改*/
+.soc-icon-edit:before {content: "\f040";}
+/*删除*/
+.soc-icon-delete:before {content: "\f068";}
+/*批量添加*/
+.soc-icon-batch-add:before {content: "\f196";}
+/*批量修改*/
+.soc-icon-batch-edit:before {content: "\f044";}
+/*批量删除*/
+.soc-icon-batch-delete:before {content: "\f014";}
+/*批量终止*/
+.soc-icon-batch-stop:before {content: "\f04d";}
+/*查询*/
+.soc-icon-search:before {content: "\f002";}
+/*放大*/
+.soc-icon-search-plus:before {content: "\f00e";}
+/*缩小*/
+.soc-icon-search-minus:before {content: "\f010";}
+/*刷新*/
+.soc-icon-refresh:before {content: "\f021";}
+/*保存*/
+.soc-icon-save:before {content: "\f0c7";}
+/*提交*/
+.soc-icon-submit:before {content: "\f011";}
+/*关闭*/
+.soc-icon-close:before {content: "\f00d";}
+/*锁定*/
+.soc-icon-lock:before {content: "\f023";}
+/*解锁*/
+.soc-icon-unlock:before {content: "\f13e";}
+/*下载*/
+.soc-icon-download:before {content: "\f019";}
+/*上传*/
+.soc-icon-upload:before {content: "\f093";}
+/*忽略*/
+.soc-icon-ignore:before {content: "\f1b8";}
+/*批量忽略*/
+.soc-icon-batch-ignore:before {content: "\f216";}
+/*自动发现*/
+.soc-icon-find:before {content: "\f14e";}
+/*生成工单*/
+.soc-icon-workflow:before {content: "\e018";}
+/*停止*/
+.soc-icon-stop:before {content: "\f04d";}
+/*批量停止*/
+.soc-icon-batch-stop:before {content: "\f28e";}
+/*导出PDF*/
+.soc-icon-export-pdf:before {content: "\f1c1";}
+/*导出WORD*/
+.soc-icon-export-word:before {content: "\f1c2";}
+/*导出EXCEL*/
+.soc-icon-export-excel:before {content: "\f1c3";}
+/*导出XML*/
+.soc-icon-export-xml:before {content: "\f1c9";}
+/*导出图片*/
+.soc-icon-export-image:before {content: "\f1c5";}
+/*导出文件*/
+.soc-icon-export-text:before {content: "\f0f6";}
+/*配置*/
+.soc-icon-config:before {content: "\f013";}
+/*同步*/
+.soc-icon-sync:before {content: "\f1d9";}
+/*撤销*/
+.soc-icon-repeat:before {content: "\f01e";}
+/*自定义列*/
+.soc-icon-th:before {content: "\f00a";}
+/*导航*/
+.soc-icon-nav:before {content: "\f0c9";}
+/*加号*/
+.soc-icon-plus:before {content: "\f067";}
+/*减号*/
+.soc-icon-minus:before {content: "\f068";}
+/*统计图-线图*/
+.soc-icon-chart-line:before {content: "\f201";}
+/*统计图-柱图*/
+.soc-icon-chart-bar:before {content: "\f080";}
+/*统计图-饼图*/
+.soc-icon-chart-pie:before {content: "\f200";}
+/*剪切*/
+.soc-icon-cut:before {content: "\f0c4";}
+/*复制*/
+.soc-icon-copy:before {content: "\f0c5";}
+/*粘贴*/
+.soc-icon-paste:before {content: "\f0ea";}
+/*重做*/
+.soc-icon-redo:before {content: "\f064";}
+/*撤销*/
+.soc-icon-undo:before {content: "\f112";}
+/*帮助*/
+.soc-icon-help:before {content: "\f29c";}
+/*排序*/
+.soc-icon-sort:before {content: "\f0dc";}
+/*居中排序-上*/
+.soc-icon-caret-up:before {content: "\f0d8";}
+/*居中排序-下*/
+.soc-icon-caret-down:before {content: "\f0d7";}
+/*居中排序-左*/
+.soc-icon-caret-left:before {content: "\f0d9";}
+/*居中排序-右*/
+.soc-icon-caret-right:before {content: "\f0da";}
+/*排序-上*/
+.soc-icon-sort-up:before {content: "\f0de";}
+/*排序-下*/
+.soc-icon-sort-down:before {content: "\f0dd";}
+/*登录*/
+.soc-icon-sign-in:before {content: "\f090";}
+/*登出(注销)*/
+.soc-icon-sign-out:before {content: "\f08b";}
+/*邮件*/
+.soc-icon-email:before {content: "\f003";}
+/*电话*/
+.soc-icon-phone:before {content: "\f095";}
+/*手机*/
+.soc-icon-mobilephone:before {content: "\f10b";}
+/*传真*/
+.soc-icon-fax:before {content: "\f1ac";}
+/*人员*/
+.soc-icon-man:before {content: "\f007";}
+/*人员组*/
+.soc-icon-man-group:before {content: "\f0c0";}
+/*人员-添加*/
+.soc-icon-man-plus:before {content: "\f234";}
+/*人员-删除*/
+.soc-icon-man-minus:before {content: "\f235";}
+/*主页*/
+.soc-icon-home:before {content: "\f015";}
+/*运维监控*/
+.soc-icon-sys-monitor:before {content: "\f108";}
+/*运维监控*/
+.soc-icon-sys-config:before {content: "\f085";}
+/*综合展示*/
+.soc-icon-sys-show:before {content: "\f1a5";}
+/*自定义导航*/
+.soc-icon-nva-list:before {content: "\f00b";}
+/*修改密码*/
+.soc-icon-key:before {content: "\f084";}
+/*图形展示*/
+.soc-icon-graph:before {content: "\f0e8";}
+/*列表展示*/
+.soc-icon-grid:before {content: "\f0ce";}
+/*附件*/
+.soc-icon-attachment:before {content: "\f0c6";}
+/*向上*/
+.soc-icon-arrow-up:before {content: "\f062";}
+/*向下*/
+.soc-icon-arrow-down:before {content: "\f063";}
+/*向左*/
+.soc-icon-arrow-left:before {content: "\f060";}
+/*向右*/
+.soc-icon-arrow-right:before {content: "\f061";}
+/*通知*/
+.soc-icon-notice:before {content: "\e00b";}
+/*消息*/
+.soc-icon-message:before {content: "\f086";}
+/*提示信息-警告*/
+.soc-icon-tip-warning:before {content: "\f071";}
+/*提示信息-消息*/
+.soc-icon-tip-info:before {content: "\f05a";}
+/*提示信息-错误*/
+.soc-icon-tip-error:before {content: "\f057";}
+/*安全事件*/
+.soc-icon-security-event:before {content: "\e005";}
+/*故障事件*/
+.soc-icon-fault-event:before {content: "\e003";}
+/*性能事件*/
+.soc-icon-perf-event:before {content: "\e004";}
+/*脆弱性事件*/
+.soc-icon-vul-event:before {content: "\f188";}
+/*配置事件*/
+.soc-icon-deploy-event:before {content: "\e001";}
+/*显示密码*/
+.soc-icon-eye:before {content: "\f06e";}
+/*异常密码*/
+.soc-icon-eye-close:before {content: "\f070";}
+/*状态*/
+.soc-icon-status:before {content: "\f111";}
+/*时间*/
+.soc-icon-clock:before {content: "\f017";}
+/*云*/
+.soc-icon-cloud:before {content: "\f0c2";}
+/*设置*/
+.soc-icon-set:before {content: "\f0ad";}
+/*提示*/
+.soc-icon-tip:before {content: "\f0eb";}
+/*等待*/
+.soc-icon-spinner:before {content: "\f110";}
+/*上移*/
+.soc-icon-scroller-top:before{content: "\f106";}
+/*下移*/
+.soc-icon-scroller-down:before{content: "\f107";}
+/*左移*/
+.soc-icon-scroller-left:before{content: "\f104";}
+/*右移*/
+.soc-icon-scroller-right:before{content: "\f105";}
+/*上移-全部*/
+.soc-icon-scroller-top-all:before{content: "\f102";}
+/*下移-全部*/
+.soc-icon-scroller-down-all:before{content: "\f103";}
+/*左移-全部*/
+.soc-icon-scroller-left-all:before{content: "\f100";}
+/*右移-全部*/
+.soc-icon-scroller-right-all:before{content: "\f101";}
+/*时间范围*/
+.soc-icon-history:before{content: "\f1da";}
+/*自定义菜单*/
+.soc-icon-custommenu:before {content: "\e00c";}
+/*风险晴雨表-很低*/
+.soc-icon-barometer-vl:before {content: "\e010";}
+/*风险晴雨表-低*/
+.soc-icon-barometer-l:before {content: "\e011";}
+/*风险晴雨表-中*/
+.soc-icon-barometer-m:before {content: "\e012";}
+/*风险晴雨表-高*/
+.soc-icon-barometer-h:before {content: "\e013";}
+/*风险晴雨表-很高*/
+.soc-icon-barometer-vh:before {content: "\e014";}
+/*验证码*/
+.soc-icon-captcha:before {content: "\e017";}
+/*待办工作*/
+.soc-icon-todo:before {content: "\e019";}
+/*扫描*/
+.soc-icon-scan:before {content: "\e01a";}
+/*自定义导出*/
+.soc-icon-custom-export:before {content: "\e01b";}
+/*快捷菜单-外部链接*/
+.soc-icon-shortcut-out:before {content: "\f0c1";}
+/*移除*/
+.soc-icon-remove:before {content: "\f056";}
+/*禁止*/
+.soc-icon-disabled:before {content: "\f05e";}
+/*下划线*/
+.soc-icon-underline:before {content: "\f0cd";}
+/*粗体*/
+.soc-icon-bold:before {content: "\f032";}
+/*斜体*/
+.soc-icon-italic:before {content: "\f033";}
+/*勾选*/
+.soc-icon-check:before {content: "\f00c";}
+/*字符边框*/
+.soc-icon-textborder:before {content: "\e021";}
+/*删除线*/
+.soc-icon-strikethrough:before {content: "\f0cc";}
+/*上角标*/
+.soc-icon-supscript:before {content: "\f12b";}
+/*下角标*/
+.soc-icon-subscript:before {content: "\f12c";}
+/*橡皮擦*/
+.soc-icon-rubber:before {content: "\f12d";}
+/*字体尺寸*/
+.soc-icon-fontsize:before {content: "\e026";}
+/*字体颜色*/
+.soc-icon-fontcolor:before {content: "\e027";}
+/*字体类型*/
+.soc-icon-fontclass:before {content: "\f031";}
+/*颜色*/
+.soc-icon-color:before {content: "\e022";}
+/*字体背景颜色*/
+.soc-icon-gbcolor:before {content: "\e025";}
+/*无序列表*/
+.soc-icon-ul:before {content: "\f0ca";}
+/*有序列表*/
+.soc-icon-ol:before {content: "\f0cb";}
+/*左缩进*/
+.soc-icon-indentleft:before {content: "\f03b";}
+/*右缩进*/
+.soc-icon-indentright:before {content: "\f03c";}
+/*居左对齐*/
+.soc-icon-alignleft:before {content: "\f036";}
+/*居中对齐*/
+.soc-icon-aligncenter:before {content: "\f037";}
+/*居右对齐*/
+.soc-icon-alignright:before {content: "\f038";}
+/*两端对齐*/
+.soc-icon-alignjustify:before {content: "\f039";}
+/*字母大写*/
+.soc-icon-upper:before {content: "\e023";}
+/*字母小写*/
+.soc-icon-lower:before {content: "\e024";}
+/*太阳*/
+.soc-icon-sun:before {content: "\e010";}
+/*云(乌云)*/
+.soc-icon-cloudy:before {content: "\f0c2";}
+/*闪电*/
+.soc-icon-flash:before {content: "\f0e7";}
+/*雨*/
+.soc-icon-rain:before {content: "\e028";}
+
+/*=======================动画==========================*/
+.soc-spin {
+  -webkit-animation: soc-spin 2s infinite linear;
+  animation: soc-spin 2s infinite linear;
+}
+.soc-pulse {
+  -webkit-animation: soc-spin 1s infinite steps(8);
+  animation: soc-spin 1s infinite steps(8);
+}
+@keyframes soc-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
